@@ -29,6 +29,38 @@ Hash Simple Information Hash Algorithms
 
 ![App Screenshot](https://github.com/gp20ir/HashProject/blob/master/Hash.PNG?raw=true)
 
+## How to Use
+#### Video tutorial link
+
+📺 https://www.aparat.com/v/ITsOW
+
+## Installation
+
+Add dll to Refrence 
+
+## Call Using
+
+```
+using Gp20AppCode.HashAlgorithms;
+```
+
+```c#
+       private void BtnHash_Click(object sender, EventArgs e)
+        {
+            txtHash.Text = Hash.ComputeSHA1Hash(txtOrg.Text);
+        }
+
+        private void BtnLength_Click(object sender, EventArgs e)
+        {
+            lblHashLength.Text = Hash.ComputeHashTextLength(txtHash.Text);
+        }
+
+        private void BtnCampare_Click(object sender, EventArgs e)
+        {
+            lblResultCampare.Text = Hash.CampareHashText(txtCampare.Text, txtHash.Text);
+        }
+```
+
 ## Documentation
 
 [Referal Documentation](http://www.gp20.ir)
@@ -73,7 +105,6 @@ For support, email saeidazizi0443@gmail.com or join our Aparat and Youtube chann
 
 📺 https://www.aparat.com/v/ITsOW
 
-
 ## 🚀 About Me
 I'm a full stack developer...
 
@@ -113,33 +144,6 @@ Please share your challenges about this DLL and how to program with it.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-## Installation
-
-Add dll to Refrence 
-
-## Call Using
-
-```
-using Gp20AppCode.HashAlgorithms;
-```
-
-```c#
-       private void BtnHash_Click(object sender, EventArgs e)
-        {
-            txtHash.Text = Hash.ComputeSHA1Hash(txtOrg.Text);
-        }
-
-        private void BtnLength_Click(object sender, EventArgs e)
-        {
-            lblHashLength.Text = Hash.ComputeHashTextLength(txtHash.Text);
-        }
-
-        private void BtnCampare_Click(object sender, EventArgs e)
-        {
-            lblResultCampare.Text = Hash.CampareHashText(txtCampare.Text, txtHash.Text);
-        }
-```
     
 ## Road map
 
