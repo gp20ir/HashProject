@@ -24,6 +24,11 @@ Hash Simple Information Hash Algorithms
 - The minimum .NET system required to use DLL is 4.
 
 - This DLL can only be used in Windows Form.
+
+## Screenshots
+
+![App Screenshot](https://github.com/gp20ir/HashProject/blob/master/Hash.PNG?raw=true)
+
 ## Documentation
 
 [Referal Documentation](http://www.gp20.ir)
@@ -54,9 +59,11 @@ C#, .Net Framework ,...
 ⚡️ The cool thing about this DLL is that it enables you to become a professional C # programmer.
 
 
-## FAQ
+## FAQ And support
 
 #### support
+
+For support, email saeidazizi0443@gmail.com or join our Aparat and Youtube channel.
 
 📱	If you need support call me at 09147968049
 
@@ -151,19 +158,12 @@ using Gp20AppCode.HashAlgorithms;
 **Server:** C#, Clean Code , Code
 
 
-## Screenshots
-
-![App Screenshot](https://github.com/gp20ir/HashProject/blob/master/Hash.PNG?raw=true)
-
-
 ## Optimizations
 
 What optimizations did you make in your code? 
 
 E.g. factors, performance improvements, accessibility , Create Method , Variables , Function 
-## Support
 
-For support, email saeidazizi0443@gmail.com or join our Aparat and Youtube channel.
 
 
 
